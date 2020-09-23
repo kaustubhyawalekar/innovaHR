@@ -1,0 +1,24 @@
+.entire__sidebar {
+  background-color: rgb(163, 240, 133);
+}
+
+.sidebar__header {
+  /* min-width: 40% !important; */
+  display: flex;
+  flex: 0.35;
+}
+.entire__sidebar {
+  border-right: rgb(100, 100, 94) 1px solid;
+  cursor: pointer;
+}
+/* .sidebar__chat {
+  padding: 0.1cm;
+} */
+.sidebar__chat:hover {
+  background-color: #f5baba;
+  cursor: pointer;
+}
+
+.sidebar__chatEntire {
+  overflow-y: scroll;
+}

@@ -1,0 +1,43 @@
+.app {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  place-items: center;
+}
+
+.appbox {
+  background-color: #ec9191;
+  display: flex;
+  height: 90vh;
+  width: 90vw;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+  color: black;
+}
+
+.sidebar {
+  /* background-color: ; */
+  display: flex;
+  flex: 0.35;
+  flex-direction: row;
+}
+
+.chat {
+  display: flex;
+  flex: 0.65;
+  flex-direction: row;
+}
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
